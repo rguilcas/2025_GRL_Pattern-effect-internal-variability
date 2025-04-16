@@ -1,0 +1,55 @@
+### FIGURE
+figure.facecolor: white
+figure.dpi: 150
+figure.titlesize: 14
+figure.figsize: 4, 3
+figure.titleweight: bold
+
+### LINES
+lines.linewidth: 1
+
+### PATCHES
+patch.facecolor: 0072B2
+
+### LEGEND
+legend.frameon: False
+legend.fontsize: 8
+legend.handlelength: 0.8
+legend.handletextpad: 0.5
+
+### TICKS
+xtick.direction: in
+ytick.direction: in
+
+### FONTS
+font.family: sans
+#font.sans-serif: Avenir, 'Avenir Next LT Pro', Arial, Helvetica, sans-serif
+#font.weight: bold
+font.size: 8
+mathtext.default: regular
+
+
+### AXES
+axes.grid: True
+axes.facecolor: white
+axes.linewidth: 1.0
+#axes.titleweight: bold
+axes.labelsize: 8
+axes.edgecolor :'0.4'
+axes.spines.top: False
+axes.spines.right: False
+axes.titlesize: 10
+axes.labelcolor :'0.4'
+
+### GRIDS
+grid.linestyle: :
+
+### TEXT
+text.color :'0.4'
+
+xtick.color :'0.4'
+xtick.labelcolor :'0.4'
+ytick.color :'0.4'
+ytick.labelcolor :'0.4'
+
+axes.prop_cycle: cycler('color', [(0.00392156862745098, 0.45098039215686275, 0.6980392156862745), (0.8705882352941177, 0.5607843137254902, 0.0196078431372549), (0.00784313725490196, 0.6196078431372549, 0.45098039215686275), (0.8352941176470589, 0.3686274509803922, 0.0), (0.8, 0.47058823529411764, 0.7372549019607844), (0.792156862745098, 0.5686274509803921, 0.3803921568627451), (0.984313725490196, 0.6862745098039216, 0.8941176470588236), (0.5803921568627451, 0.5803921568627451, 0.5803921568627451), (0.9254901960784314, 0.8823529411764706, 0.2), (0.33725490196078434, 0.7058823529411765, 0.9137254901960784)])
