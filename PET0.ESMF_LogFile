@@ -1,0 +1,18 @@
+20250714 084740.394 ERROR            PET0 ~~~~~~~~~~~~~~~~~~~~ Degenerate Element Detected ~~~~~~~~~~~~~~~~~~~~
+20250714 084740.394 ERROR            PET0   degenerate elem. id=1
+20250714 084740.394 ERROR            PET0 
+20250714 084740.394 ERROR            PET0   degenerate elem. coords (lon [-180 to 180], lat [-90 to 90]) (x,y,z)
+20250714 084740.394 ERROR            PET0   -----------------------------------------------------------------
+20250714 084740.394 ERROR            PET0     0  (0.000000,  89.500000)  (0.008727, 0.000000, 0.999962)
+20250714 084740.394 ERROR            PET0     1  (0.000000,  89.500000)  (0.008727, 0.000000, 0.999962)
+20250714 084740.394 ERROR            PET0     2  (0.000000,  88.500000)  (0.026177, 0.000000, 0.999657)
+20250714 084740.394 ERROR            PET0     3  (0.000000,  88.500000)  (0.026177, 0.000000, 0.999657)
+20250714 084740.394 ERROR            PET0 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+20250714 084740.394 ERROR            PET0 ESMCI_Mesh_Regrid_Glue.C:215 ESMCI_regrid_create() Invalid argument  - - Src contains a cell that has corners close enough that the cell collapses to a line or point
+20250714 084740.395 ERROR            PET0 ESMCI_Mesh_Regrid_Glue.C:582 ESMCI_regrid_create() Invalid argument  - Internal subroutine call returned Error
+20250714 084740.395 ERROR            PET0 ESMCI_MeshCap.C:1676 MeshCap::regrid_create() Invalid argument  - Internal subroutine call returned Error
+20250714 084740.395 ERROR            PET0 ESMF_Regrid.F90:368 ESMF_RegridStore Invalid argument  - Internal subroutine call returned Error
+20250714 084740.395 ERROR            PET0 ESMF_FieldRegrid.F90:1171 ESMF_FieldRegridStoreNX Invalid argument  - Internal subroutine call returned Error
+20250714 084740.395 ERROR            PET0 ESMF_Field_C.F90:1137 f_esmf_regridstore Invalid argument  - Internal subroutine call returned Error
+20250714 084740.395 ERROR            PET0 ESMCI_Field.C:1468 ESMCI::Field::regridstore() Invalid argument  - Internal subroutine call returned Error
+20250714 084740.395 ERROR            PET0 ESMC_Field.C:449 ESMC_FieldRegridStore() Invalid argument  - Internal subroutine call returned Error
